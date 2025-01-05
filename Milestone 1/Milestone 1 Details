@@ -1,0 +1,112 @@
+
+MILESTONE 1: Working Collaboratively
+
+In this course, a final project will be completed by teams. Please be sure to read the Final Project section to start planning. Additionally, the MILESTONE 2: PMP and Proposal is a big milestone that requires more work, be sure to read ahead and planning accordingly for each milestone. 
+
+Teams will consist of about 5 members. Data science is best done on teams and many professionals do work in teams, whether that means working with other data scientists, analysts, domain experts, or business managers, you will need to understand how to conduct data science as a team contributor, so starting early on learning how to do this process effectively is important for your future careers. 
+
+I understand, wholeheartedly, how difficult teamwork can be, but as stated, teamwork can be a part of the nature of data science work, and we will work together to solve problems as they arise. 
+In the GitHub Project folder, you will find a Contract. I expect team members to complete the contract and review the sections carefully. If problems arise, I expect teams to try using their mitigation strategies first. For egregious issues, please immediately contact me or anyone from the teaching team. 
+If you are on a team and know you will be missing a deadline because of travel, holiday, anything prescheduled, communicate with your team in advance (while completing Milestone 1) and sign on for tasks that will not be affected by your absence. In the case of emergencies or illness, such as long-term unexpected absence, reach out to the team and inform them via email and copy the instructor on the email. Please follow-up with the instructor so a plan to account for your absence can be determined. See the syllabus for additional information.
+
+
+
+GOALS for MILESTONE 1: Working Collaboratively 
+•	You have read this entire section and are aware of the reasons for team projects.
+•	You have met your team
+o	The instructor has posted your team information, you should have connected via slack, email, text, or any other messaging platform
+•	You have picked a Team Name (see below on Team Naming).
+•	You have signed the Contract Agreement in GitHub
+•	You have created the Team GitHub 
+o	Introduce you to the technical aspects of collaborating on a reproducible data science project that is version controlled by Git and hosted on GitHub in a repository shared by all teammates. Yes, this means you and all of your teammates will be pushing to the same repository! Sometimes things will go very well, and sometimes you’ll run into merge conflicts.
+o	NOTE: The word “conflict” has a negative connotation. And, indeed, merge conflicts can be frustrating. But they serve to make sure no team member inadvertently writes another team member’s work. All changes that are in “conflict” with each other need to get resolved explicitly, with a commit message, which helps avoid haphazard overwriting.
+•	The team has explored MILESTONE 2: PMP and PROPOSAL 
+o	The team has started to plan the Proposal, and they have started the PMP
+	Do not wait on this! Key is to try and stay ahead to reduce panic work, reduce team arguments, and reduce the possibility of missing important deadlines and point opportunities. 
+•	Team name
+•	Pick a team name. It can be straightforward, or it can be cheeky, but it must be SFW. Let your TA know your team’s name asap. Once everyone’s team names are in, your project repos will be created (give your TA to the end of Monday), and then you can continue with the rest of your task.
+
+Merge conflicts
+When you and your teammates work on the lines of code within a document, and both try to push your changes, you will run into issues. Merge conflicts happen when you merge branches that have competing changes, and Git needs your help to decide which changes to incorporate in the final merge.
+Our first task today is to walk you through a merge conflict! First, a bit of Git review:
+•	Pushing to a repo replaces the code on GitHub with the code you have on your computer.
+•	If a collaborator has made a change to your repo on GitHub that you haven’t incorporated into your local work, GitHub will stop you from pushing to the repo because this could overwrite your collaborator’s work!
+•	So, you need to explicitly “merge” your collaborator’s work before you can push.
+•	If your and your collaborator’s changes are in different files or in different parts of the same file, git merges the work for you automatically when you pull.
+•	If you both changed the same part of a file, git will produce a merge conflict because it doesn’t know how which change you want to keep, and which change you want to overwrite.
+Git will put conflict markers in your code that look like:
+<<<<<<< HEAD 
+
+See also: [pandas documentation](https://pandas.pydata.org/docs/)   
+
+======= 
+
+See also [seaborn documentation](https://seaborn.pydata.org/)  
+
+>>>>>>> some1alpha2numeric3string4
+
+The === in the line separate your changes (top) from their changes (bottom).
+Note that on top you see the word HEAD, which indicates that these are your changes.
+And at the bottom you see some1alpha2numeric3string4 (well, it probably looks more like 28e7b2ceb39972085a0860892062810fb812a08f).
+This is the hash (a unique identifier) of the render your collaborator made with the conflicting change.
+Your job is to reconcile the changes: edit the file so that it incorporates the best of both versions and delete the <<<, ===, and >>> lines. Then you can stage and render the result.
+Activity
+Setup
+•	Clone the project repo and open the About Team.txt file.
+•	Assign the numbers 1, 2, 3, 4, and 5 to each of the team members. If your team has fewer than 5 people, some people will need to have multiple numbers.
+Let’s cause a merge conflict!
+Our goal is to see two different types of merges: first we’ll see a type of merge that Git can’t figure out on its own how to do on its own (a merge conflict) and requires human intervention, then another type of where that Git can figure out how to do without human intervention.
+Doing this will require some tight choreography, so pay attention!
+Take turns in completing the exercise, only one member at a time. Others should just watch, not doing anything on their own projects (this includes not even pulling changes!) until they are instructed to. If you feel like you won’t be able to resist the urge to touch your computer when it’s not your turn, we recommend putting your hands in your pockets or sitting on them!
+Before starting
+Everyone should have the repo cloned and know which role number(s) they are.
+Also, any teammates who haven’t done this before should go to their Terminal and type git config pull.rebase false to set up their preferences for pulling.
+
+Role 1
+•	Go to About Team.txt in your project repo. Change the [team name] to your actual team name.
+•	Render the project by clicking on Render in the Build tab, commit (all changed files), and push.
+IMPORTANT: Make sure the previous role has finished before moving on to the next step.
+
+Role 2
+•	Change the team name to some other word.
+•	Render the project by clicking on Render in the Build tab, commit (all changed files), and push. You should get an error.
+•	Pull. Take a look at the document (About Team.txt) with the merge conflict.
+•	Clear the merge conflict by editing the document to choose the correct/preferred change.
+•	Render the project by clicking on Render in the Build tab.
+•	Click the Stage checkbox for all files in your Git tab. Make sure they all have check marks, not filled-in boxes.
+•	Commit and push.
+IMPORTANT: Make sure the previous role has finished before moving on to the next step.
+Role 3
+•	Change the a name of the first team member.
+•	Render the project by clicking on Render in the Build tab, commit, push. You should get an error.
+•	Pull. No merge conflicts should occur, but you should see a message About Team merging.
+•	Now push.
+IMPORTANT: Make sure the previous role has finished before moving on to the next step.
+
+Role 4
+•	Change the a name of the first team member to something other than what the previous team member did.
+•	Render the project by clicking on Render in the Build tab, commit, push. You should get an error.
+•	Pull. Take a look at the document with the merge conflict. Clear the merge conflict by choosing the correct/preferred change. Render the project by clicking on Render in the Build tab, commit, and push.
+IMPORTANT: Make sure the previous role has finished before moving on to the next step.
+
+Role 5
+•	Change the name of the rest of the team members and add descriptions for each person with the help of your team members. Role 5 should be the only one typing, the others should help verbally.
+•	Render the project by clicking on Render in the Build tab and commit. Discuss as a team what you expect to happen when you hit push. Should there be a merge conflict error or not?
+•	If there is a merge conflict, fix it. If not, push your changes.
+Everyone
+Pull, and observe the changes in your project.
+
+Tips for collaborating via GitHub
+•	Always pull first before you start working.
+•	Resolve a merge conflict (render and push) before continuing your work. Never do new work while resolving a merge conflict.
+•	Render, commit, and push often to minimize merge conflicts and/or to make merge conflicts easier to resolve.
+•	If you find yourself in a situation that is difficult to resolve, ask questions ASAP. Don’t let it linger and get bigger.
+
+Team contract agreement
+Go to your project repository and open contract.txt. As the instructions suggest, pick a teammate to be the scribe. Discuss the prompts and write up your answers. Once done, click Render in the build tab, commit, and push.
+Grading
+We will evaluate the first milestone of your project based on your participation in this activity. Each team member who participates in the activity during the lab session will earn 5 points towards their project.
+
+
+
+

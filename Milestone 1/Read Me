@@ -1,0 +1,14 @@
+GOALS for MILESTONE 1: Working Collaboratively 
+•	You have read this entire section and are aware of the reasons for team projects.
+•	You have met your team
+o	The instructor has posted your team information, you should have connected via slack, email, text, or any other messaging platform
+•	You have picked a Team Name (see below on Team Naming).
+•	You have signed the Contract Agreement in GitHub
+•	You have created the Team GitHub 
+o	Introduce you to the technical aspects of collaborating on a reproducible data science project that is version controlled by Git and hosted on GitHub in a repository shared by all teammates. Yes, this means you and all of your teammates will be pushing to the same repository! Sometimes things will go very well, and sometimes you’ll run into merge conflicts.
+o	NOTE: The word “conflict” has a negative connotation. And, indeed, merge conflicts can be frustrating. But they serve to make sure no team member inadvertently writes another team member’s work. All changes that are in “conflict” with each other need to get resolved explicitly, with a commit message, which helps avoid haphazard overwriting.
+•	The team has explored MILESTONE 2: PMP and PROPOSAL 
+o	The team has started to plan the Proposal, and they have started the PMP
+	Do not wait on this! Key is to try and stay ahead to reduce panic work, reduce team arguments, and reduce the possibility of missing important deadlines and point opportunities. 
+•	Team name
+•	Pick a team name. It can be straightforward, or it can be cheeky, but it must be SFW. Let your TA know your team’s name asap. Once everyone’s team names are in, your project repos will be created (give your TA to the end of Monday), and then you can continue with the rest of your task.

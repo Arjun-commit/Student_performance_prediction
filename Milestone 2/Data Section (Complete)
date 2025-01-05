@@ -1,0 +1,79 @@
+MILESTONE 2: Project Management Plan (PMP) and Project Proposal
+
+FINDING A DATASET
+
+
+Criteria for datasets
+The data sets should meet the following criteria:
+•	At least 500 observations
+•	At least 8 columns
+•	At least 4 of the columns must be useful and unique explanatory variables.
+o	Identifier variables such as “name”, “social security number”, etc. are not useful explanatory variables.
+o	If you have multiple columns with the same information (e.g. “state abbreviation” and “state name”), then they are not unique explanatory variables.
+•	You may not use data that has previously been used in any course materials, or any derivation of data that has been used in course materials.
+•	You can curate one of your datasets via web scraping.
+Please ask a member of the teaching team if you’re unsure whether your data set meets the criteria.
+
+If you set your hearts on a dataset that has fewer observations or variables than what’s suggested here, that might still be ok; use these numbers as guidance for a successful proposal, not as minimum requirements.
+
+Resources for datasets
+You can find data wherever you like, but here are some recommendations to get you started. You shouldn’t feel constrained to datasets that are already in a tidy format, you can start with data that needs cleaning and tidying, scrape data off the web, or collect your own data.
+•	Awesome public datasets
+•	Bikeshare data portal
+•	CDC
+•	Data.gov
+•	Data is Plural
+•	Durham Open Data Portal
+•	Edinburgh Open Data
+•	Election Studies
+•	European Statistics
+•	CORGIS: The Collection of Really Great, Interesting, Situated Datasets
+•	General Social Survey
+•	Google Dataset Search
+•	Harvard Dataverse
+•	International Monetary Fund
+•	IPUMS survey data from around the world
+•	Los Angeles Open Data
+•	NHS Scotland Open Data
+•	NYC OpenData
+•	Open access to Scotland’s official statistics
+•	Pew Research
+•	PRISM Data Archive Project
+•	Statistics Canada
+•	TidyTuesday
+•	The National Bureau of Economic Research
+•	UCI Machine Learning Repository
+•	UK Government Data
+•	UNICEF Data
+•	United Nations Data
+•	United Nations Statistics Division
+•	US Census Data
+•	US Government Data
+•	World Bank Data
+•	Youth Risk Behavior Surveillance System (YRBSS)
+•	FRED Economic Data
+
+Components
+For each data set, include the following:
+Introduction and data
+For each data set:
+•	Identify the source of the data.
+•	State when and how it was originally collected (by the original data curator, not necessarily how you found the data).
+•	Write a brief description of the observations.
+•	Address ethical concerns about the data, if any.
+
+Glimpse of data
+For each data set:
+•	Place the file containing your data in the data folder of the project repo.
+•	Use the .head() and .info() functions to provide a glimpse of the data set.
+Grading for Data Component
+Total	5 pts
+Introduction and data	2
+Data Source Cited	1
+Glimpse of data	2
+Each component will be graded as follows:
+•	Meets expectations (full credit): All required elements are completed and are accurate. The narrative is written clearly, all tables and visualizations are nicely formatted, and the work would be presentable in a professional setting.
+•	Close to expectations (half credit): There are some elements missing and/or inaccurate. There are some issues with formatting.
+•	Does not meet expectations (no credit): Major elements missing. Work is not neatly formatted and would not be presentable in a professional setting.
+It is critical to check feedback on your project proposal. Even if you earn full credit, it may not mean that your proposal is perfect.
+

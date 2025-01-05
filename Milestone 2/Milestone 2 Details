@@ -1,0 +1,196 @@
+INFO 511 Foundations of Data Science
+Milestone 2: Project Management Plan (PMP) and Proposal
+The PMP and Project Proposal are nearly worth as much as the Final Project. Be sure to complete this step. 
+
+
+Project Management Plan:
+Whether you are working on a data science project for a business setting or in a research lab, you will likely be expected to have a Project Management Plan (PMP). In many data science positions, the project management plan is frequently established, tracked, updated, and monitored within a project management system or even your GitHub project folder. Either way, understanding the initial strategies of project managing a data science assignment is beneficial for all involved. The PMP document for this course enables team members to assess time and resources (people on a project) necessary for successful completion of the assignment. It also makes the workflow move much more smoothly and is an opportunity to mitigate risks before they happen. Another salient consideration is we are in the era of Open Science requirements. That means that it is important that all work be reproducible and accessible. Having a PMP helps data scientists, especially in research, account for this requirement.
+For this course, a PMP document details about each step is provided for you and your team to use to manage the project process and must be included with your Project Proposal, with the completed PMP turned in with the Final Project Report. Note, the PMP here is really a learning guideline and not exhaustive of considerations for data science projects. It is, however, an important aspect of data science and all of you should consider this as you move forward in your education and careers. Having a PMP allows for time management, sets team expectations, makes an easy workflow process, and assists with risk and mitigation management. 
+
+Proposal: 
+Utilizing elements from the PMP, complete a proposal for your teams’ final research project. The proposal should not exceed two pages and should ideally be kept to one page if possible. The proposal should include the title of the project, the research question, the data set to be used, and the key methods that are anticipated to be used to answer the research question, along with a reference page, and start the team member bio-sketches. Include theoretical foundations that support the project question. The Final Project may have a business or research contextual focused approach, though the approach should be made clear in the Proposal (and consistent throughout the Final Report). Meaning the reader should understand who the audience is for the scope of work. As noted above, please ensure you have started your reference page and started the bio-sketch, which are to be included at the end of the Proposal (and Final Report). 
+For this course, I ask that you use either APA or IEEE citation formats. Choose one and stick with it. 
+Directions for PMP and Project Proposal:
+It is expected that each team will turn in the PMP document with the Proposal to ensure a plan has been established and is agreed a upon by the data science team. Complete PMP and Proposal agreement at the end of the document. Points will be deducted for teams that have not reviewed the documents and signed it. 
+Most of this document will be filled out for the Proposal, with the remainder to be filled out and turned in with the Final Project. 
+The PMP should only be 2 pages maximum (aim for one, practice being succinct). While the sections below are detailed, please be succinct in completing the details for each section. 
+Be sure to complete sections that are bold. If you complete one of the sections for advanced skills, you will be expected to complete that task and graded on it, so be careful what you select for the project. You are better off completing even the simplest of projects but executing it exceptionally well, rather than trying to aim for too complicated project. Decide and commit as a team. 
+Remember to cite your work, that includes the dataset you are using. You may cite from literature, readings, the course textbook, or lecture—just be sure to cite what influenced your decision and where you accessed information from, and any generative tools used to assist in the process.
+
+Please remember that MILESTONE 2 is worth 80 pts
+Grading for PMP						50 pts
+Proposal Fields Filled Out Completely	5
+Research Question	5
+Data Component	5
+Data Exploration and Preprocessing	5
+Expected Modeling	5
+Modeling Evaluation Plan	5
+Model Deployment or Implementation Plan	5
+Communication Plan	5
+Risk Management	5
+Timeline	5
+
+Grading for Project Proposals			35 pts
+Research Question(s) Stated	10
+Data Component Completed	5
+Methods Identified	5
+Reference Page Started 	5
+Team Bio-sketch	5
+
+Data Science Project Management Plan
+Areas that are Bold should be completed and submitted with the Project Proposal. 
+Please create a new document with the main sections and add team information. The details here are for your use and information only and should not be included in the PMP submission.
+Updates to the PMP will be added while the team works on the Final Project and will be submitted with the Final Project Report.
+
+Team Member Names and Email:
+Add all names and emails for the people on the project team. 
+
+
+Team Name: 
+Please give your team a name. 
+I will call this name out to present during final presentation. 
+Be sure to keep it Safe For Work (SFW) name!
+
+
+ Project Title:
+
+Generative AI Tool Use Acknowledgement: 
+Each team needs to document how and when they used a generative tool to accomplish the any aspect of the project. *I recommend an additional running doc that you can use to track use. Use of generative AI tools must be cited and referenced! Points will be deducted for inaccurate documentation, citation, or references. Entire projects may be rejected if no documentation is provided. 
+
+Citation Style: 
+
+1.Define the Problem or Research Question:
+Objective:  Clearly define the primary goal of the project. What problem are you trying to solve? What is the research question? What do you want to learn and convey to your colleagues?
+
+Considerations: Choose a context for the project.
+Business Context: If this is a business context, explain how solving this problem will add value. Include relevant literature background information and the business impact of potential solutions. If selecting a business context, please include a scenario for the business purpose and the literature to support the expected process. 
+
+Research Context: If this is a research context, explain state the research question that the team intends to answer, which is intended to support or oppose a theoretical expectation. Include relevant literature background information that supports the research question and impact the results have on the original body of literature and question. 
+
+Key Stakeholders:  List or make clear who the key stakeholders involved in the project (e.g., business, researcher, community, policy, etc.). 
+
+
+2.Data:
+Objective: The objective for this part of the Project Management Plan is for the team to identify the data to be used to answer the project question. There are times in data science projects where you will be handed a data set and asked to find relevant information about the data. In this sense, the data is set before the question is established. For this project, the team may select an interesting data set first and then create a research question around the data. Either way you handle part 1 and 2 of this project is up to the team. Each proposal must have a data set selected and research question established. 
+ 	
+Data Sources Identified:  Identify the data source that will be used in the project. The data may come from data we have used in class, from a public repository, or data you have access to. Please note, if you are using a faculty member’s or colleague’s data, you must get their approval to use the data (this needs to align with IRB and other constraints that revolve around data use). Use the data resource section for places to access public data. 
+
+*Cite the data: where it is accessed from, the name of the dataset, the people who collected it, and any relevant information pertaining to the data (e.g., data collected by researcher/agency/company X and was originally collected for Y purposes, using Z research theories/questions, etc.). 
+
+Data Acquisition Plan: Describe the methods necessary for accessing the data. For example, data was downloaded from public government website. Include any permissions needed, timelines, and responsible team members to accomplish this (who is accessing the data).
+
+Data Quality Plan Established: Make notation that the data has been evaluated for the quality and reliability. Meaning, have you assessed that you can indeed access the data, you have assessed that the data has imported correctly, and all variables of interest can be used. Consider aspects like completeness, accuracy, and relevance.
+
+
+
+ 3. Data Exploration and Preprocessing:
+
+Data Cleaning Plan:  Outline the steps that will be used for cleaning the data, including handling missing values, outliers, and inconsistencies. List who will handle this on the team and list the quality check plan. The quality check may mean all people on the team assess the code and outcomes and agree that the data was properly assessed, and all issues accurately addressed. 
+
+Feature Engineering: (NOT FOR THIS CLASS**). This is an advanced method and not to expected to be used for this project. The information is here for your awareness that as you move forward in your data science careers, new features/variables may be created from existing features/variables to that follow theoretical expectations. Usually, a definition of any new features/variables that will be created to improve the model’s performance will be explained in great detail and will necessitate theoretical rationale behind the created features/variables.
+
+Exploratory Data Analysis (EDA): For the Proposal, a detail of the EDA will be listed. The information should cover concepts from lectures and readings. The point of this process is to make sure you don’t miss important steps in data cleaning process. The EDA proposal should demonstrate that the team understands the data, can identify patterns, and uncover relationships. Be sure to list the planned visualizations and summary statistics that will be used. The final EDA should follow in line most of what was proposed, though the final may be more comprehensive as your knowledge builds. The final EDA should be recognizable in the final project. 
+
+ 4. Expected Modeling: Modeling approach should be determined based on the initial project question that is needing to be answered. While the proposal is not expected to have details about the model process, knowledge of the model to be used should be listed. 
+Considerations: Fill out the later sections as you work through the project and turn in the final Project Management Plan with final project and the Modeling techniques completed. 
+
+Model Selection: (Answer in proposal what is expected to be used, but this section must be completed for final project report and section should be filled out and turned in with the final project): Choose the appropriate algorithms and techniques to answer the project question. Explain the reasoning behind the choice and be sure to cite. You may cite from literature, readings, the course textbook, or lecture—just be sure to cite what influenced your decision.
+
+Training and Validation: (NOT FOR THIS COURSE**Teams are not expected nor encouraged to do this for this course; however, if you do this, you must explain each step, document processes, and cite the reason for doing this.
+ Describe the process of splitting the data into training and validation sets. Detail how the model will be trained and validated.
+
+
+ 5. Model Evaluation Plan:
+Performance Metrics Expected to use: For the Proposal, list what the team expects the performance metrics to be for the model they have chosen to use for the project. Performance metrics define the metrics do exactly as stated, they are used to evaluate the model’s performance. These should align with the project’s objectives and model used. Proposals should list the metrics that are expected to be used for model/algorithm assessment (e.g., R2, AUC and ROC, specificity, etc.). 
+Be sure that this information is in the final project information.
+
+Model Validation: (NOT FOR THIS COURSE) For this course, model validation is not required unless you split and train datasets, more for an advanced course. Model validation, similar to the concepts of performance metrics, is used to establish certainty in processes. Model validation should be used when necessary to explain that the techniques were conducted appropriately for the datasets. Model validation pertains to assessing the model’s generalization ability, ensuring that it performs well on unseen data, while the performance metrics are more important for this course, which focuses on quantifying specific aspects of the model's predictions, such as accuracy, precision, and recall.
+ If you choose to use test sets for your project, you will be expected to validate the model using a test set or cross-validation techniques. Describe the methods used and the results obtained. (Recommendation, stick to a simple model. Incomplete accurate processes will doc the team grade).
+
+Considerations when selecting a model: 
+Interpretability:  Assess the interpretability of the model. Consider how easily the results can be explained to non-technical stakeholders.
+
+ 6. Model Deployment or Implementation Plan:
+Objectives for Implementation: Plan for deploying the model in a production environment. Include details on the infrastructure, tools, and team members involved. Here is where you list Python as your tool and all the expected packages that you will use. Hint: only use the ones from the course. 
+
+FINAL REPORT STAGE (BUT KEEP IN MIND IN PROPOSAL): Deploy the entire process and document for reproducibility (For Final Project only, not to be included with Proposal): 
+Keep this step in mind while you plan the proposal and conduct the work. 
+The entire modeling process information should be well documented in a markdown that is easily reproduceable and for the creation of a report to the audience of interest (the business you work for or the research community or publication). In the era of Open Science, it is important that all work be reproducible. That means that everything you do in code should be able to be reproduced by a third party, and that includes understanding the process through accurate documentation. 
+  
+
+ 7. Communication: 
+Between colleagues: This is a crucial part in the data science process—how to communicate effectively with your team. Keep it brief, but discuss and plan.
+Describe the mode of communication (e.g., email, slack, text, etc.).
+How frequently will the team plan to meet?
+Will the meetings be in-person or online? 
+How will you connect your work quality checks?
+These are examples of project management that are as salient as the methods and research questions. Professional recommendation, plan this aspect every time!
+
+Document the entire project process, from data collection to deployment. Include code (in GitHub team folder), methodologies, and lessons learned for future reference.
+
+8. Risk Management: 
+All projects come with risk. Data science projects usually require a risk plan, as do most grants and research projects. 
+Identify Potential Risks:  List potential risks that could impact the project, such as data privacy concerns, ethical issues, or model biases.
+Mitigation Strategies for Identified Risks: Develop strategies to minimize risks. Assign responsibilities and outline action plans in case issues arise.
+Considerations: How to think and plan for risk and mitigation to risk.
+What is the plan if a team member cannot complete their part of the project? How will you convey that information to the professor? What are the expectations of the team members to communicate with each other on issues they are having?
+What are possible issues that may come up with data cleaning if any?
+What are possible issues with modeling if any? 
+What are possible reporting issues? 
+
+
+ 9. Maintenance and Iteration (NOT FOR THIS CLASS, but future considerations)
+Feedback Loop:  Develop a system for gathering feedback from users or stakeholders. Use this feedback to improve the model and processes.
+Model Updates:  Plan for regular updates to the model as new data becomes available or business needs change. Include timelines and responsible team members.
+
+
+ 10. Timeline and Milestones
+
+Project Phases:  For the Proposal PMP, please give a brief milestone plan. Break the project into phases, with timelines for each phase. Include the start and end dates. 
+I understand that project work does not always happen as planned and so, the dates, etc., can be flexible. I want to see that you are thinking about the project and considering time management. Many data science projects will require timelines and when expectations will be met. I understand that some of these dates may change and who completes the tasks may also shift, but please add this to the proposal for your teams’ and my awareness. 
+
+
+FINAL PROJECT NOTES FOR PLANNING CONSIDERATION: 
+Nothing in this section is required for the Project Proposal or PMP. The information is for your planning purposes and to support the proposal process.
+Please review the Final Project section for more information.
+
+ Final Presentation: Each person is expected to have a part in the presentation. It is expected you will give a 5-6 minute presentation. The presentation can be in a conference style, reporting to the board of directors, or to your research colleagues, the freedom in the scenario is yours—but it needs to be stated ahead of time and during the final presentation. Plan for presenting the findings to stakeholders. Consider how to tailor the message to both technical and non-technical audiences.
+Start planning now and throughout the process how information will be conveyed succinctly and with professionalism. Creating presentations while you work can aid in ensuring you have accomplished all the steps and relevant information is being presented. 
+
+Planned Final Report Proposed:  Teams will decide and explain the final report they will create. See the next section so you can plan the Final Report proposal style. For the Final Report Proposal, include what key metrics and insights will be covered over the course of the project.
+Final Project Report: The Final Project Report is a professional write-up report for the project. If the project has a business context, create a report that conveys salient information to the audience. If the project has a research focus, then reporting needs to follow along the lines of research reports/papers for the domain area (e.g., for psychology or health focus, match that domain). All reports should have everything included in the proposal, but expanded with clear research question, methods, results, visual element, in-text citations, reference section, and the final page should include a bio-sketch (see next section) for each team member (this becomes relevant when submitting research articles, grants, and for professional documentation). The final report should also include relevant information such as descriptive statistics, visualization (stick to primary information of final results—what is most relevant to see from the final work?).. 
+
+The bio-sketch will include the information from the proposal. The bio-sketch includes the name, degree plan, and the work completed in the project. A bio-sketch should not be more than a paragraph long—great practice to write succinctly. 
+
+
+Final notes for work process and reporting: 
+Document! When in doubt, document your work. Documenting allows the team to see where issues might have occurred and relays important information to audience and for open science requirements—reproducibility. 
+
+
+Added considerations for final project to support the proposal process:
+In the Final Project, you may include and appendix with additional information about the data, additional visualizations, etc. 
+All Final Projects require: 
+Clearly state research question
+Theoretical or background foundation that supports the question
+Theoretical or background foundation on the model selected to answer the question
+Methodology section: state the methods used to complete the project.
+Results section. Explain the final results, answer the question, include visuals.
+Next steps section: once completed, what would the team recommend for next research/work steps. What other things could be done to expand further.  
+In-text citations must accompany work. 
+References:  List any references or resources consulted during the planning phase.
+Team member bio-sketch: Important for grants, research, and professional tracking. List name, degree plan, and your role on the project. Bio-sketches should not be more than a paragraph. 
+Generative tool use acknowledgement: Each team needs to document how and when they used a generative tool to accomplish the entire project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
